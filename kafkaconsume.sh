@@ -4,14 +4,14 @@
 KAFKA_BIN_PATH="/kaf01/kafka/bin"
 
 # Define Kafka bootstrap servers
-BOOTSTRAP_SERVERS="10.183.5.101:9093,10.183.5.102:9093,10.183.5.103:9093"
+BOOTSTRAP_SERVERS="ip:port,ip:port,ip:port"
 
 # Duration to consume logs for each topic in seconds
 CONSUME_DURATION_SECONDS=3
 
 # List of Kafka topics to check
 TOPIC_NAMES=(
-    "Example : bcc-nsb-esb-sila"
+    "Example : bcc"
     "add topucs name"
     "........"
 )
