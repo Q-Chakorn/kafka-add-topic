@@ -12,7 +12,7 @@ REPLICATION_FACTOR=3
 
 # List of Kafka topics to create
 TOPIC_NAMES=(
-    "Example : bcc-nsb-srps-sila"
+    "Example : bcc"
     "topics name"
     "......."
 )
